@@ -195,7 +195,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="exampleInputEmail1" class="form-label">Adresse mail</label>
-                                    <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Obligatoire (nom@exemple.com)">
+                                    <input name="email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Obligatoire (nom@exemple.com)" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">>
                                     <div id="emailHelp" class="form-text text-light">Votre adresse email restera privée.</div>
                                 </div>
                                 <div class="mb-3">
